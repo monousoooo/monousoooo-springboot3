@@ -4,25 +4,25 @@ import com.monousoooo.example.constant.CommonConstants;
 import lombok.*;
 import lombok.experimental.Accessors;
 
+import java.io.Serial;
 import java.io.Serializable;
 
+@Getter
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
 @Accessors(chain = true)
 public class Response<T> implements Serializable {
 
+    @Serial
     private static final long serialVersionUID = 1L;
 
-    @Getter
     @Setter
     private int code;
 
-    @Getter
     @Setter
     private String msg;
 
-    @Getter
     @Setter
     private T data;
 
