@@ -3,7 +3,7 @@ package com.monousoooo.example.service;
 import cn.hutool.core.lang.tree.Tree;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.monousoooo.example.model.entity.SysMenu;
-import com.monousoooo.example.util.Response;
+import com.monousoooo.example.common.util.Response;
 
 import java.util.List;
 import java.util.Set;

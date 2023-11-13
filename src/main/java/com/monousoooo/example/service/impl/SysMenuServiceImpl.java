@@ -13,7 +13,7 @@ import com.monousoooo.example.mapper.SysRoleMenuMapper;
 import com.monousoooo.example.model.entity.SysMenu;
 import com.monousoooo.example.model.entity.SysRoleMenu;
 import com.monousoooo.example.service.SysMenuService;
-import com.monousoooo.example.util.Response;
+import com.monousoooo.example.common.util.Response;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

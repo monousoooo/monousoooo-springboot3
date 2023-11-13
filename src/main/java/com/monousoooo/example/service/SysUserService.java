@@ -7,7 +7,7 @@ import com.monousoooo.example.model.dto.UserDTO;
 import com.monousoooo.example.model.dto.UserInfo;
 import com.monousoooo.example.model.entity.SysUser;
 import com.monousoooo.example.model.vo.UserVO;
-import com.monousoooo.example.util.Response;
+import com.monousoooo.example.common.util.Response;
 
 public interface SysUserService extends IService<SysUser>{
 

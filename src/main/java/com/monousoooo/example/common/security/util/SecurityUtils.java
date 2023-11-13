@@ -1,7 +1,7 @@
-package com.monousoooo.example.security.util;
+package com.monousoooo.example.common.security.util;
 
 import cn.hutool.core.util.StrUtil;
-import com.monousoooo.example.security.service.MoUser;
+import com.monousoooo.example.common.security.service.MoUser;
 import lombok.experimental.UtilityClass;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;

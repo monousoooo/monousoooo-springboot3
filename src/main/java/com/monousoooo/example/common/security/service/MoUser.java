@@ -1,4 +1,4 @@
-package com.monousoooo.example.security.service;
+package com.monousoooo.example.common.security.service;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;

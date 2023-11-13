@@ -1,4 +1,4 @@
-package com.monousoooo.example.constant;
+package com.monousoooo.example.common.constant;
 
 public interface CommonConstants {
     Integer SUCCESS = 200;

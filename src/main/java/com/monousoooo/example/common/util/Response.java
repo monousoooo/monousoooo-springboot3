@@ -1,6 +1,6 @@
-package com.monousoooo.example.util;
+package com.monousoooo.example.common.util;
 
-import com.monousoooo.example.constant.CommonConstants;
+import com.monousoooo.example.common.constant.CommonConstants;
 import lombok.*;
 import lombok.experimental.Accessors;
 
