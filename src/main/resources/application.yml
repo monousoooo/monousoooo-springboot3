@@ -1,7 +1,8 @@
 server:
-  port: 7001
+  port: 8080
+spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/monousoooo
     username: root
     password: root
@@ -20,3 +21,9 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   type-aliases-package: com.monousoooo.example.model.entity
   mapper-locations: classpath:mapper/*.xml
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+  packages-to-scan: com.monousoooo.example.controller
